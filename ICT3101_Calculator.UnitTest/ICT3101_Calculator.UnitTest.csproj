@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="SpecFlow" Version="3.0.225" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.0.225" />
+    <PackageReference Include="SpecFlow.NUnit.Runners" Version="3.0.225" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\3101_lab1\3101_lab1.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="features\" />
+    <Folder Include="step_definitions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="features\calculatorSpecFlow.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>calculatorSpecFlow.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\AdditionFeatureS.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>AdditionFeatureS.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\CalculatorFeature.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CalculatorFeature.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\Test.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Test.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\CalCulatorFeature.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CalCulatorFeature.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\DivisionFeature.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>DivisionFeature.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\AddFeature.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>AddFeature.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\MTTFFeature.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MTTFFeature.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+  <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Update="features\calculatorSpecFlow.feature.cs">
+      <DependentUpon>calculatorSpecFlow.feature</DependentUpon>
+    </SpecFlowObsoleteCodeBehindFiles>
+    <SpecFlowObsoleteCodeBehindFiles Update="features\Test.feature.cs">
+      <DependentUpon>Test.feature</DependentUpon>
+    </SpecFlowObsoleteCodeBehindFiles>
+    <SpecFlowObsoleteCodeBehindFiles Update="features\AddFeature.feature.cs">
+      <DependentUpon>AddFeature.feature</DependentUpon>
+    </SpecFlowObsoleteCodeBehindFiles>
+    <SpecFlowObsoleteCodeBehindFiles Update="features\MTTFFeature.feature.cs">
+      <DependentUpon>MTTFFeature.feature</DependentUpon>
+    </SpecFlowObsoleteCodeBehindFiles>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="step_definitions\CalculatorStep.cs" />
+    <Compile Remove="features\DivisionFeature.feature.cs" />
+  </ItemGroup>
+</Project>
