@@ -8,7 +8,7 @@ namespace _3101_lab1
         public double DoOperation(double num1, double num2, string op)
         {
             double result = double.NaN;
-            // Default value// Use a switch statement to do the math.
+            //// Default value// Use a switch statement to do the math.
             switch (op)
             {
                 case "a":
