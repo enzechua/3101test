@@ -1,0 +1,10 @@
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/bin/Debug/netcoreapp2.2/3101_lab1.deps.json
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/bin/Debug/netcoreapp2.2/3101_lab1.runtimeconfig.json
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/bin/Debug/netcoreapp2.2/3101_lab1.runtimeconfig.dev.json
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/bin/Debug/netcoreapp2.2/3101_lab1.dll
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/bin/Debug/netcoreapp2.2/3101_lab1.pdb
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/obj/Debug/netcoreapp2.2/3101_lab1.csproj.CoreCompileInputs.cache
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/obj/Debug/netcoreapp2.2/3101_lab1.AssemblyInfoInputs.cache
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/obj/Debug/netcoreapp2.2/3101_lab1.AssemblyInfo.cs
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/obj/Debug/netcoreapp2.2/3101_lab1.dll
+/Users/chuaenze/Projects/3101_lab1/3101_lab1/obj/Debug/netcoreapp2.2/3101_lab1.pdb

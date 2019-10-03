@@ -72,12 +72,6 @@
     <SpecFlowObsoleteCodeBehindFiles Update="features\Test.feature.cs">
       <DependentUpon>Test.feature</DependentUpon>
     </SpecFlowObsoleteCodeBehindFiles>
-    <SpecFlowObsoleteCodeBehindFiles Update="features\AddFeature.feature.cs">
-      <DependentUpon>AddFeature.feature</DependentUpon>
-    </SpecFlowObsoleteCodeBehindFiles>
-    <SpecFlowObsoleteCodeBehindFiles Update="features\MTTFFeature.feature.cs">
-      <DependentUpon>MTTFFeature.feature</DependentUpon>
-    </SpecFlowObsoleteCodeBehindFiles>
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="step_definitions\CalculatorStep.cs" />

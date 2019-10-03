@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{EC3E5FA6-C6B0-4CB4-BDE4-E70E0E3EBAFA}|Default">
+  <MonoDevelop.Ide.ItemProperties.3101__lab1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="travis.yml">
+    <Files>
+      <File FileName="3101_lab1/Program.cs" Line="69" Column="10" />
+      <File FileName="3101_lab1/Calculator.cs" />
+      <File FileName="ICT3101_Calculator.UnitTest/CalculatorTests.cs" />
+      <File FileName="ICT3101_Calculator.UnitTest/features/DivisionFeature.feature" />
+      <File FileName="ICT3101_Calculator.UnitTest/step_definitions/CalculatorDivisionStepDefinition.cs" />
+      <File FileName="ICT3101_Calculator.UnitTest/features/AddFeature.feature" />
+      <File FileName="ICT3101_Calculator.UnitTest/features/DivisionFeature.feature.cs" />
+      <File FileName="ICT3101_Calculator.UnitTest/features/MTTFFeature.feature" Line="11" Column="1" />
+      <File FileName="ICT3101_Calculator.UnitTest/step_definitions/MtbfStep.cs" />
+      <File FileName="3101_lab1/Triangle.cs" />
+      <File FileName="travis.yml" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="3101_lab1" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
